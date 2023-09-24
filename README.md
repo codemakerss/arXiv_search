@@ -22,7 +22,7 @@ Quote : “Thank you to arXiv for use of its open access interoperability.”
 
 | Functions                                                    | Explain                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [search without constrains](#search without constrains)      | simple arXiv search                                          |
+| [search without constrains](#search_without_constrains)      | simple arXiv search                                          |
 | [search only by id_list](#search only by id_list)            | search based on id_lsit and may only return one result       |
 | [search by both search query and id_list](#search by both search query and id_list) | this may not generate any result since id_list could be unique |
 | [search only by title](#search only by title)                | search by papers title within different fields               |
@@ -32,7 +32,7 @@ Quote : “Thank you to arXiv for use of its open access interoperability.”
 | [search by both abstract and category](#search by both abstract and category) | search papers by abstract within one typical field           |
 | [view result in DataFrame](#view result in DataFrame )       | this can help view result in DataFrame especially on Jupyter Notebook |
 
-#### search without constrains
+#### search_without_constrains
 
 ```python
 import arxiv_researchs as ar
