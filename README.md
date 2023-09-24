@@ -34,6 +34,8 @@ Quote : “Thank you to arXiv for use of its open access interoperability.”
 
 #### search_without_constrains
 
+##### [ return back to `Functions` tables](#Functions)
+
 ```python
 import arxiv_researchs as ar
 # show all 2 results as `start = -1` and `max_results = 2`
@@ -57,6 +59,8 @@ print(result)
 
 #### search_only_by_id_list
 
+##### [ return back to `Functions` tables](#Functions)
+
 ```python
 import arxiv_researchs as ar
 # show all 2 results as `start = -1` and `max_results = 2`
@@ -76,6 +80,8 @@ print(result)
 
 #### search_by_both_search_query_and_id_list
 
+##### [ return back to `Functions` tables](#Functions)
+
 ```python
 import arxiv_researchs as ar
 # show all 2 results as `start = -1` and `max_results = 2`
@@ -90,6 +96,8 @@ result
 ```
 
 #### search_only_by_title
+
+##### [ return back to `Functions` tables](#Functions)
 
 ```python
 import arxiv_researchs as ar
@@ -115,6 +123,8 @@ print(result)
 
 #### search_only_by_abstract
 
+##### [ return back to `Functions` tables](#Functions)
+
 ```python
 import arxiv_researchs as ar
 # show all 2 results as `start = -1` and `max_results = 2`
@@ -138,6 +148,8 @@ print(result)
 ```
 
 #### search_only_by_category
+
+##### [ return back to `Functions` tables](#Functions)
 
 ```python
 import arxiv_researchs as ar
@@ -163,6 +175,8 @@ print(result)
 
 #### search_by_both_title_and_category
 
+##### [ return back to `Functions` tables](#Functions)
+
 ```python
 import arxiv_researchs as ar
 # show all 2 results as `start = -1` and `max_results = 2`
@@ -186,6 +200,8 @@ print(result)
 ```
 
 #### search_by_both_abstract_and_category
+
+##### [ return back to `Functions` tables](#Functions)
 
 ```python
 import arxiv_researchs as ar
@@ -211,6 +227,8 @@ print(result)
 
 #### viewr_esult_in_DataFrame 
 
+##### [ return back to `Functions` tables](#Functions)
+
 ```python
 import arxiv_researchs as ar
 # show all 2 results as `start = -1` and `max_results = 2`
@@ -227,5 +245,5 @@ view_df =  ar.view_dataframe(result)
 view_df.style.format({'paper_download_link': make_clickable})
 ```
 
-![view_df_pic](/Users/hanyuduan/Desktop/DUKE/DAREC/AI_Assistant/AI_Dev/1.Arxiv_Build/Final_version/view_df.png)
+![view_df_pic](./screenshots/view_df.png)
 
