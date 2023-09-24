@@ -25,7 +25,7 @@ Quote : “Thank you to arXiv for use of its open access interoperability.”
 | [search without constrains](#search_without_constrains)      | simple arXiv search                                          |
 | [search only by id_list](#search_only_by_id_list)            | search based on id_lsit and may only return one result       |
 | [search by both search query and id_list](#search_by_both_search_query_and_id_list) | this may not generate any result since id_list could be unique |
-| [search only by title](#search_only_by title)                | search by papers title within different fields               |
+| [search only by title](#search_only_by_title)                | search by papers title within different fields               |
 | [search only by abstract](#search_only_by_abstract)          | looking for common words or related in the paper abstract section |
 | [search only by category](#search_only_by_category)          | refer to [Parameters](#Parameters) `category_taxonomy` for more information |
 | [search by both title and category](#search_by_both_title_and_category) | search papers by title within one typical field              |
