@@ -245,5 +245,7 @@ view_df =  ar.view_dataframe(result)
 view_df.style.format({'paper_download_link': make_clickable})
 ```
 
-![view_df_pic](./screenshots/view_df.png)
+![view_df_pic](https://github.com/codemakerss/arXiv_search/blob/main/sreenshots/view_df.png)
+
+
 
