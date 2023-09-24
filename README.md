@@ -225,7 +225,7 @@ print(result)
   'download link': 'http://arxiv.org/pdf/2301.04020v1'}}
 ```
 
-#### viewr_esult_in_DataFrame 
+#### viewr_result_in_DataFrame 
 
 ##### [ return back to `Functions` tables](#Functions)
 
