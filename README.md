@@ -23,14 +23,14 @@ Quote : “Thank you to arXiv for use of its open access interoperability.”
 | Functions                                                    | Explain                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [search without constrains](#search_without_constrains)      | simple arXiv search                                          |
-| [search only by id_list](#search only by id_list)            | search based on id_lsit and may only return one result       |
-| [search by both search query and id_list](#search by both search query and id_list) | this may not generate any result since id_list could be unique |
-| [search only by title](#search only by title)                | search by papers title within different fields               |
-| [search only by abstract](#search only by abstract)          | looking for common words or related in the paper abstract section |
-| [search only by category](#search only by category)          | refer to [Parameters](#Parameters) `category_taxonomy` for more information |
-| [search by both title and category](#search by both title and category) | search papers by title within one typical field              |
-| [search by both abstract and category](#search by both abstract and category) | search papers by abstract within one typical field           |
-| [view result in DataFrame](#view result in DataFrame )       | this can help view result in DataFrame especially on Jupyter Notebook |
+| [search only by id_list](#search_only_by_id_list)            | search based on id_lsit and may only return one result       |
+| [search by both search query and id_list](#search_by_both_search_query_and_id_list) | this may not generate any result since id_list could be unique |
+| [search only by title](#search_only_by title)                | search by papers title within different fields               |
+| [search only by abstract](#search_only_by_abstract)          | looking for common words or related in the paper abstract section |
+| [search only by category](#search_only_by_category)          | refer to [Parameters](#Parameters) `category_taxonomy` for more information |
+| [search by both title and category](#search_by_both_title_and_category) | search papers by title within one typical field              |
+| [search by both abstract and category](#search_by_both_abstract_and_category) | search papers by abstract within one typical field           |
+| [view result in DataFrame](#view_result_in_DataFrame)       | this can help view result in DataFrame especially on Jupyter Notebook |
 
 #### search_without_constrains
 
@@ -55,7 +55,7 @@ print(result)
   'download link': 'http://arxiv.org/pdf/2309.10103v1'}}
 ```
 
-#### search only by id_list
+#### search_only_by_id_list
 
 ```python
 import arxiv_researchs as ar
@@ -74,7 +74,7 @@ print(result)
   'download link': 'http://arxiv.org/pdf/2301.04020v1'}}
 ```
 
-#### search by both search query and id_list
+#### search_by_both_search_query_and_id_list
 
 ```python
 import arxiv_researchs as ar
@@ -89,7 +89,7 @@ result
 {}
 ```
 
-#### search only by title
+#### search_only_by_title
 
 ```python
 import arxiv_researchs as ar
@@ -113,7 +113,7 @@ print(result)
   'download link': 'http://arxiv.org/pdf/2301.04020v1'}}
 ```
 
-#### search only by abstract
+#### search_only_by_abstract
 
 ```python
 import arxiv_researchs as ar
@@ -137,7 +137,7 @@ print(result)
   'download link': 'http://arxiv.org/pdf/2309.04237v1'}}
 ```
 
-#### search only by category
+#### search_only_by_category
 
 ```python
 import arxiv_researchs as ar
@@ -161,7 +161,7 @@ print(result)
   'download link': 'http://arxiv.org/pdf/2309.11960v1'}}
 ```
 
-#### search by both title and category
+#### search_by_both_title_and_category
 
 ```python
 import arxiv_researchs as ar
@@ -185,7 +185,7 @@ print(result)
   'download link': 'http://arxiv.org/pdf/1911.12231v1'}}
 ```
 
-#### search by both abstract and category
+#### search_by_both_abstract_and_category
 
 ```python
 import arxiv_researchs as ar
@@ -209,7 +209,7 @@ print(result)
   'download link': 'http://arxiv.org/pdf/2301.04020v1'}}
 ```
 
-#### view result in DataFrame 
+#### viewr_esult_in_DataFrame 
 
 ```python
 import arxiv_researchs as ar
