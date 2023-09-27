@@ -2,14 +2,14 @@
 
 ## summary
 
-This is a arXiv search code that help you search for any papers you want from arXiv API. 
+This is a arXiv search code that can help you search for any papers you want from arXiv API. 
 Quote : “Thank you to arXiv for use of its open access interoperability.”
 
 ## Parameters 
 
 |    Parameters     | Data Type |                            Usage                             |
 | :---------------: | :-------: | :----------------------------------------------------------: |
-|   search_query    |  string   |                words user want to search for                 |
+|   search_query    |  string   | words user want to search for<br />note : if you want to search for two words and above, please this format instaed : `quant+finance` or `web3+blockchain` |
 |     search_by     |  string   |      user can search by `title`, `abstract`, `category`      |
 | category_taxonomy |  string   | more taxonomy information can be found at : https://arxiv.org/category_taxonomy |
 |      id_list      |  string   |              comma-delimited list of arXiv id's              |
