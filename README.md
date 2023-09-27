@@ -9,7 +9,7 @@ Quote : “Thank you to arXiv for use of its open access interoperability.”
 
 |    Parameters     | Data Type |                            Usage                             |
 | :---------------: | :-------: | :----------------------------------------------------------: |
-|   search_query    |  string   | words user want to search for<br />note : if you want to search for two words and above, please this format instaed : `quant+finance` or `web3+blockchain` |
+|   search_query    |  string   | words user want to search for<br />note : if you want to search for two words and above, please this format instead: `quant+finance` or `web3+blockchain` |
 |     search_by     |  string   |      user can search by `title`, `abstract`, `category`      |
 | category_taxonomy |  string   | more taxonomy information can be found at : https://arxiv.org/category_taxonomy |
 |      id_list      |  string   |              comma-delimited list of arXiv id's              |
